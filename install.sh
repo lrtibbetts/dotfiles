@@ -12,3 +12,11 @@ fi
 # remove existing .zshrc and symlink to .dotfiles version
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
+# update homebrew
+brew update
+
+# install from brewfile
+echo "brewing..."
+brew tap homebrew/bundle
+brew bundle --file $DOTFILES/Brewfile

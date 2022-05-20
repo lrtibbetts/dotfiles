@@ -1,3 +1,6 @@
+# path to dotfiles
+export DOTFILES=$HOME/.dotfiles
+
 # git aliases
 
 alias gs="git status"
