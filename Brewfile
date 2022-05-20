@@ -3,6 +3,8 @@ brew 'gh'
 brew 'git'
 brew 'grep'
 brew 'jq'
+brew 'node'
+brew 'python3'
 
 cask 'spotify'
 cask 'visual-studio-code'

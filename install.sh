@@ -22,4 +22,4 @@ brew tap homebrew/bundle
 brew bundle --file $DOTFILES/Brewfile
 
 # install ghcup (haskell)
-curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+# curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
