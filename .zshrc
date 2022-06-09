@@ -17,8 +17,9 @@ alias gaa="git add ."
 alias gb="git branch"
 
 # navigation
+function c { cd ~/code/"$1" }
+
 alias dot="cd ~/.dotfiles"
-alias c="cd ~/code"
 
 # edit me
 alias e="nano ~/.zshrc"
