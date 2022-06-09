@@ -15,6 +15,7 @@ alias gc="git commit -m"
 alias ga="git add"
 alias gaa="git add ."
 alias gb="git branch"
+alias gpsh="git push"
 
 # navigation
 function c { cd ~/code/"$1" }
