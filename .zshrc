@@ -4,7 +4,7 @@ export DOTFILES=$HOME/.dotfiles
 # aliases ==========
 
 # general
-alias ls="ls -a"
+# alias ls="ls -a"
 
 # git
 alias gs="git status"
