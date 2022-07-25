@@ -21,6 +21,7 @@ alias gpsh="git push"
 function c { cd ~/code/"$1" }
 
 alias dot="cd ~/.dotfiles"
+alias notes="cd ~/Documents/obsidian/lucy"
 
 # edit me
 alias e="nano ~/.zshrc"
