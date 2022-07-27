@@ -1,3 +1,6 @@
+# modify PATH
+export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+
 # path to dotfiles
 export DOTFILES=$HOME/.dotfiles
 
