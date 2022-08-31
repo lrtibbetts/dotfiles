@@ -1,6 +1,3 @@
-# modify PATH
-export PATH=/opt/homebrew/opt/ruby/bin:$PATH
-
 # path to dotfiles
 export DOTFILES=$HOME/.dotfiles
 
@@ -29,5 +26,10 @@ alias notes="cd ~/Documents/obsidian/lucy"
 # edit me
 alias e="nano ~/.zshrc"
 
-# ghcup (haskell)
+# ghcup
 [ -f "/Users/lucy/.ghcup/env" ] && source "/Users/lucy/.ghcup/env" # ghcup-env
+
+# ruby
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.1.2 # run chruby to see actual version
