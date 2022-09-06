@@ -21,5 +21,5 @@ echo "brewing..."
 brew tap homebrew/bundle
 brew bundle --file $DOTFILES/Brewfile
 
-# install ghcup (haskell)
+# install ghcup
 # curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
