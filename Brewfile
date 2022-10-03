@@ -9,6 +9,7 @@ brew 'eslint'
 brew 'redis'
 brew 'chruby'
 brew 'ruby-install'
+brew 'hugo'
 
 cask 'spotify'
 cask 'visual-studio-code'
