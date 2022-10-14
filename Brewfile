@@ -10,6 +10,7 @@ brew 'redis'
 brew 'chruby'
 brew 'ruby-install'
 brew 'hugo'
+brew 'exa'
 
 cask 'spotify'
 cask 'visual-studio-code'
