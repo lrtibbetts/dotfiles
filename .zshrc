@@ -33,3 +33,5 @@ alias e="nano ~/.zshrc"
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 chruby ruby-3.1.2 # run chruby to see actual version
+
+export PATH="/opt/homebrew/opt/python@3.10/libexec/bin:$PATH"
