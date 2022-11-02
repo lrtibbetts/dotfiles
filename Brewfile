@@ -24,3 +24,5 @@ cask 'microsoft-powerpoint'
 cask 'slack'
 cask 'microsoft-excel'
 cask 'docker'
+
+# brew install coursier/formulas/coursier && cs setup
