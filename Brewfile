@@ -12,6 +12,7 @@ brew 'hugo'
 brew 'exa'
 brew 'python'
 brew 'docker'
+brew 'fzf'
 
 cask 'spotify'
 cask 'visual-studio-code'
