@@ -113,7 +113,6 @@ alias gs="git status"
 alias gd="git diff"
 alias gp="git pull"
 alias gl="git log"
-alias gc="git commit -m"
 alias ga="git add"
 alias gaa="git add ."
 alias gb="git branch"
@@ -126,7 +125,7 @@ alias dot="cd ~/.dotfiles"
 alias notes="cd ~/Documents/obsidian/lucy"
 
 # edit me
-alias e="nano ~/.zshrc"
+alias e="nano ~/.dotfiles/.zshrc"
 
 # ghcup
 [ -f "/Users/lucy/.ghcup/env" ] && source "/Users/lucy/.ghcup/env" # ghcup-env
